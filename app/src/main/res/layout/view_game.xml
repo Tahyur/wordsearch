@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="WORD COUNT GAME"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/playerName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Welcome Player"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/labels"
+                        android:text="clicks left" />
+
+                    <TextView
+                        android:id="@+id/clicksLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="10"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="40sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt00"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt01"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt02"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt03"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt04"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt05"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt06"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt07"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt08"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt09"
+                        style="@style/grid_style" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt10"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt11"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt12"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt13"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt14"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt15"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt16"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt17"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt18"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt19"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt20"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt21"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt22"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt23"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt24"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt25"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt26"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt27"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt28"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt29"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt30"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt31"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt32"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt33"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt34"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt35"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt36"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt37"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt38"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt39"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt40"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt41"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt42"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt43"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt44"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt45"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt46"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt47"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt48"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt49"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt50"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt51"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt52"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt53"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt54"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt55"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt56"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt57"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt58"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt59"
+                        style="@style/grid_style" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt60"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt61"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt62"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt63"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt64"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt65"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt66"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt67"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt68"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt69"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt70"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt71"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt72"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt73"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt74"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt75"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt76"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt77"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt78"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt79"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt80"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt81"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt82"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt83"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt84"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt85"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt86"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt87"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt88"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt89"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt90"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt91"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt92"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt93"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt94"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt95"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt96"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt97"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt98"
+                        style="@style/grid_style" />
+
+                    <TextView
+                        android:id="@+id/txt99"
+                        style="@style/grid_style" />/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/labels"
+                android:text="Score" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="0"
+                android:textColor="@color/colorPrimary"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/labels"
+                android:text="Time Elapsed" />
+
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="00:00:00"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
